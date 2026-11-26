@@ -9,7 +9,7 @@ st.set_page_config(page_title="Student Performance Predictor", page_icon="🎓",
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/student_data.csv")
+    return pd.read_csv("data/data/student_data.csvstudent_data.csv")
 
 @st.cache_resource
 def train_model():
